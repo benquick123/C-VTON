@@ -1,0 +1,15 @@
+python3 train.py \
+-n C-VTON-VITON-HD \
+--dataset viton \
+--batch_size 16 \
+--add_vgg_loss \
+--lambda_vgg 10 \
+--add_d_loss \
+--add_cd_loss \
+--add_pd_loss \
+--no_labelmix \
+--img_size 512 \
+--segmentation densepose \
+--transform_cloth \
+--bpgm_id 256_26_3_viton \
+--gpu_ids 0 1
