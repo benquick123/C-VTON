@@ -2,6 +2,8 @@
 
 # C-VTON: Context-Driven Image-Based Virtual Try-On Network
 
+[[paper pdf]](https://lmi.fe.uni-lj.si/wp-content/uploads/2021/10/WACV2022_Benjamin-5_compressed.pdf)
+
 ### Abstract
 
 Image-based virtual try-on techniques have shown great promise for enhancing the user-experience and improving customer satisfaction on fashion-oriented e-commerce platforms. However, existing techniques are currently still limited in the quality of the try-on results they are able to produce from input images of diverse characteristics. In this work, we propose a Context-Driven Virtual Try-On Network (C-VTON) that addresses these limitations and convincingly transfers selected clothing items to the target subjects even under challenging pose configurations and in the presence
@@ -10,8 +12,6 @@ the final try-on result. C-VTON is evaluated in rigorous experiments on the VITO
 significantly improves on the existing state-of-the-art.
 
 <img src="img/banner2.png" alt="banner" width="100%"/>
-
-[[paper pdf]](https://lmi.fe.uni-lj.si/wp-content/uploads/2021/10/WACV2022_Benjamin-5_compressed.pdf)
 
 ## Requirements
 
