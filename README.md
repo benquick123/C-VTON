@@ -9,7 +9,7 @@ of self-occlusions. At the core of the C-VTON pipeline are: (i) a geometric matc
 the final try-on result. C-VTON is evaluated in rigorous experiments on the VITON and MPV datasets and in comparison to state-of-the-art techniques from the literature. Experimental results show that the proposed approach is able to produce photo-realistic and visually convincing results and
 significantly improves on the existing state-of-the-art.
 
-<img src="img/tmp.png" alt="banner" width="100%"/>
+<img src="img/banner2.png" alt="banner" width="100%"/>
 
 [[paper pdf]]()
 
