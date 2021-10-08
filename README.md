@@ -1,6 +1,6 @@
 # C-VTON: Context-Driven Image-Based Virtual Try-On Network
 
-![banner](img/banner.png)
+<img src="img/banner.png" alt="banner" width="100%"/>
 
 ### Abstract
 
