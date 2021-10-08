@@ -55,10 +55,10 @@ When training using VITON-HD dataset make sure to delete the second line in `tra
 
 ```bib
 @InProceedings{Fele_2021_WACV,
-author = {Fele, Benjamin and Lampe, Ajda and Peer, Peter and Struc, Vitomir},
-title = {C-VTON: Context-Driven Image-Based Virtual Try-On Network},
-booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
-month = {January},
-year = {2022}
+    author = {Fele, Benjamin and Lampe, Ajda and Peer, Peter and Struc, Vitomir},
+    title = {C-VTON: Context-Driven Image-Based Virtual Try-On Network},
+    booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
+    month = {January},
+    year = {2022}
 }
 ```
