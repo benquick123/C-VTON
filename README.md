@@ -32,7 +32,7 @@ Running tests yourself requires some setting up to do:
 * For MPV:
     * Download [our preprocessed data]() and extract them to folder `./data/`. Additionally, obtain the MPV dataset *in resolution 256×192* and extract it alongside preprocessed data.
 * Download pretrained BPGM model for [VITON](), [VITON-HD]() or [MPV]() and put it in `./bpgm/checkpoints`.
-* Download pretrained C-VTON models for [VITON](), [VITON-HD]() or [MPV]() and put it in `./checkpoints`.
+* Download pretrained C-VTON model for [VITON](), [VITON-HD]() or [MPV]() and put it in `./checkpoints`.
 * Run test scripts:
 ```bash
 cd C-VTON
