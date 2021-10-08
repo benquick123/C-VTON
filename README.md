@@ -9,6 +9,10 @@ of self-occlusions. At the core of the C-VTON pipeline are: (i) a geometric matc
 the final try-on result. C-VTON is evaluated in rigorous experiments on the VITON and MPV datasets and in comparison to state-of-the-art techniques from the literature. Experimental results show that the proposed approach is able to produce photo-realistic and visually convincing results and
 significantly improves on the existing state-of-the-art.
 
+<img src="img/tmp.png" alt="banner" width="100%"/>
+
+[[paper pdf]]()
+
 ## Requirements
 
 - Python (3.8.10)
@@ -23,35 +27,37 @@ The experiments were conducted on one (for image resolutions 256×192) or two (f
 
 ## Testing
 
-To avoid setting up this repository only to obtain results presented in the paper, please see the generated test results [here]() (for VITON) and [here]() (for MPV). You can find respective test splits alongside provided data [here]() (VITON) and [here]() (MPV).
+To avoid setting up this repository only to obtain results presented in the paper, please see the generated test results [here]() (for VITON), [here]() (for VITON-HD) and [here]() (for MPV). You can find respective test splits alongside provided preprocessed data [here]() (VITON) and [here]() (MPV).
 
 Running tests yourself requires some setting up to do:
 * Install requirements.
 * For VITON / VITON-HD: 
-    * Download [our preprocessed data]() and extract them to folder `./data/`. Since we are not allowed to share the actual dataset, contact the authors of the [original VITON paper]() and ask them for the full-resolution dataset and download it to appropriate folders.
+    * Download [our preprocessed data]() and extract them to folder `./data/`. Since we are not allowed to share the actual dataset, contact the authors of the [original VITON paper](https://openaccess.thecvf.com/content_cvpr_2018/html/Han_VITON_An_Image-Based_CVPR_2018_paper.html), ask them for the full-resolution dataset and download it to appropriate folders.
 * For MPV:
-    * Download [our preprocessed data]() and extract them to folder `./data/`. Additionally, obtain the MPV dataset *in resolution 256×192* and extract it alongside preprocessed data.
+    * Download [our preprocessed data]() and extract them to folder `./data/`. Additionally, obtain the version of the MPV dataset *in resolution 256×192* and extract it alongside preprocessed data.
 * Download pretrained BPGM model for [VITON](), [VITON-HD]() or [MPV]() and put it in `./bpgm/checkpoints`.
 * Download pretrained C-VTON model for [VITON](), [VITON-HD]() or [MPV]() and put it in `./checkpoints`.
 * Run test scripts:
 ```bash
 cd C-VTON
-python scripts/test_{dataset}.sh
+./scripts/test_{dataset}.sh
 ```
 
 Make sure you use our test split to obtain the same results.
 
 ## Training
 
-To train the models from scratch, download all aforementioned data and install requirements. Then, similarly to testing, run appropriate scripts from the `scripts` folder:
+To train the models from scratch, download all data mentioned in previous section and install requirements. Then, similarly to testing, run appropriate scripts from the `scripts` folder:
 ```bash
 cd C-VTON
-python scripts/train_{dataset}.sh
+./scripts/train_{dataset}.sh
 ```
 
 When training using VITON-HD dataset make sure to delete the second line in `train.py` in order to use all available GPUs.
 
 ## Citation
+
+If you code or results from this repository, please cite the following publication:
 
 ```bib
 @InProceedings{Fele_2021_WACV,
