@@ -57,7 +57,7 @@ When training using VITON-HD dataset make sure to delete the second line in `tra
 
 ## Citation
 
-If you code or results from this repository, please cite the following publication:
+If you use code or results from this repository, please cite the following publication:
 
 ```bib
 @InProceedings{Fele_2021_WACV,
