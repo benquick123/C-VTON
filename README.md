@@ -27,16 +27,16 @@ The experiments were conducted on one (for image resolutions 256×192) or two (f
 
 ## Testing
 
-To avoid setting up this repository only to obtain results presented in the paper, please see the generated test results [here]() (for VITON), [here]() (for VITON-HD) and [here]() (for MPV). You can find respective test splits alongside provided preprocessed data [here]() (VITON) and [here]() (MPV).
+To avoid setting up this repository only to obtain results presented in the paper, please see the generated test results [here](https://unilj-my.sharepoint.com/:u:/g/personal/ajda_lampe_fri1_uni-lj_si/EUGuq5g2GsVMhr8-SJaJzOsBAv3eV2u5lYHNaVs48jg5rQ?e=rM89CX) (for VITON), [here](https://unilj-my.sharepoint.com/:u:/g/personal/ajda_lampe_fri1_uni-lj_si/EaNy6fTn9J5Ko9gN07CP-JkB99pOlQFzCPCg-YALheCoKA?e=vxYgKm) (for VITON-HD) and [here](https://unilj-my.sharepoint.com/:u:/g/personal/ajda_lampe_fri1_uni-lj_si/EaMvf74Mr79AqNexNF3dsLQBJ7gT2xj0Hu5hoHeCLGTdFg?e=RY3V1n) (for MPV). You can find respective test splits alongside provided preprocessed data [here](https://unilj-my.sharepoint.com/:u:/g/personal/ajda_lampe_fri1_uni-lj_si/ETp4oU8UlJJJmLcAeHe7AAQB8guB7DXsWnrvz1X6wXVhYA?e=fKMFay) (VITON) and [here](https://unilj-my.sharepoint.com/:u:/g/personal/ajda_lampe_fri1_uni-lj_si/EQAaPs8M7BpIlQoTiqKse8wBL0gX8IbXP74jKxg35hNrGw?e=geHFmv) (MPV).
 
 Running tests yourself requires some setting up to do:
 * Install requirements.
 * For VITON / VITON-HD: 
-    * Download [our preprocessed data]() and extract them to folder `./data/`. Since we are not allowed to share the actual dataset, contact the authors of the [original VITON paper](https://openaccess.thecvf.com/content_cvpr_2018/html/Han_VITON_An_Image-Based_CVPR_2018_paper.html), ask them for the full-resolution dataset and download it to appropriate folders.
+    * Download [our preprocessed data](https://unilj-my.sharepoint.com/:u:/g/personal/ajda_lampe_fri1_uni-lj_si/ETp4oU8UlJJJmLcAeHe7AAQB8guB7DXsWnrvz1X6wXVhYA?e=fKMFay) and extract them to folder `./data/`. Since we are not allowed to share the actual dataset, contact the authors of the [original VITON paper](https://openaccess.thecvf.com/content_cvpr_2018/html/Han_VITON_An_Image-Based_CVPR_2018_paper.html), ask them for the full-resolution dataset and download it to appropriate folders.
 * For MPV:
-    * Download [our preprocessed data]() and extract them to folder `./data/`. Additionally, obtain the version of the MPV dataset *in resolution 256×192* and extract it alongside preprocessed data.
-* Download pretrained BPGM model for [VITON / VITON-HD](https://unilj-my.sharepoint.com/:u:/g/personal/ajda_lampe_fri1_uni-lj_si/EZnNGs6iKTtFuO6d5RXKnSkBj-Pqg5P90sQc6P0vtiikrg?e=hHGBTv) or [MPV](https://unilj-my.sharepoint.com/:u:/g/personal/ajda_lampe_fri1_uni-lj_si/Edg4zAN2GFxHqFFJqCCL330BoiYTpIbFtqMsTO2gIZGqtQ?e=jD014C) and put it in `./bpgm/checkpoints`.
-* Download pretrained C-VTON model for [VITON](), [VITON-HD]() or [MPV]() and put it in `./checkpoints`.
+    * Download [our preprocessed data](https://unilj-my.sharepoint.com/:u:/g/personal/ajda_lampe_fri1_uni-lj_si/EQAaPs8M7BpIlQoTiqKse8wBL0gX8IbXP74jKxg35hNrGw?e=geHFmv) and extract them to folder `./data/`. Additionally, obtain the version of the MPV dataset *in resolution 256×192* and extract it alongside preprocessed data.
+* Download pretrained BPGM model for [VITON / VITON-HD](https://unilj-my.sharepoint.com/:u:/g/personal/ajda_lampe_fri1_uni-lj_si/EZnNGs6iKTtFuO6d5RXKnSkBFqd1gTepsuOJx4jcwUxU0w?e=AsCnp8) or [MPV](https://unilj-my.sharepoint.com/:u:/g/personal/ajda_lampe_fri1_uni-lj_si/Edg4zAN2GFxHqFFJqCCL330BTWn8QjD2_AETPFQn-Uy43Q?e=ukbkOO) and put it in `./bpgm/checkpoints`.
+* Download pretrained C-VTON model for [VITON](https://unilj-my.sharepoint.com/:u:/g/personal/ajda_lampe_fri1_uni-lj_si/ETmsytfF7uBPns6JUWBbQWQBWA13txw3TIt7iKhdx0NHXg?e=sZduTp), [VITON-HD](https://unilj-my.sharepoint.com/:u:/g/personal/ajda_lampe_fri1_uni-lj_si/EYTs9svs9I1Hm-SJ0nvxWacB4Zwh1ExyXbq4rU1Elky3-g?e=OxA2If) or [MPV](https://unilj-my.sharepoint.com/:u:/g/personal/ajda_lampe_fri1_uni-lj_si/EWhBbsGC7V5MtxAKbDh6M5MBnpX2H_kgpSDGzppFv_c7ew?e=DxwV3B) and put it in `./checkpoints`.
 * Run test scripts:
 ```bash
 cd C-VTON
