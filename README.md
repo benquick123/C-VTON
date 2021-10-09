@@ -35,7 +35,7 @@ Running tests yourself requires some setting up to do:
     * Download [our preprocessed data]() and extract them to folder `./data/`. Since we are not allowed to share the actual dataset, contact the authors of the [original VITON paper](https://openaccess.thecvf.com/content_cvpr_2018/html/Han_VITON_An_Image-Based_CVPR_2018_paper.html), ask them for the full-resolution dataset and download it to appropriate folders.
 * For MPV:
     * Download [our preprocessed data]() and extract them to folder `./data/`. Additionally, obtain the version of the MPV dataset *in resolution 256×192* and extract it alongside preprocessed data.
-* Download pretrained BPGM model for [VITON](), [VITON-HD]() or [MPV]() and put it in `./bpgm/checkpoints`.
+* Download pretrained BPGM model for [VITON / VITON-HD](https://unilj-my.sharepoint.com/:u:/g/personal/ajda_lampe_fri1_uni-lj_si/EZnNGs6iKTtFuO6d5RXKnSkBj-Pqg5P90sQc6P0vtiikrg?e=hHGBTv) or [MPV](https://unilj-my.sharepoint.com/:u:/g/personal/ajda_lampe_fri1_uni-lj_si/Edg4zAN2GFxHqFFJqCCL330BoiYTpIbFtqMsTO2gIZGqtQ?e=jD014C) and put it in `./bpgm/checkpoints`.
 * Download pretrained C-VTON model for [VITON](), [VITON-HD]() or [MPV]() and put it in `./checkpoints`.
 * Run test scripts:
 ```bash
