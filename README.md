@@ -69,4 +69,4 @@ If you use code or results from this repository, please cite the following publi
 }
 ```
 
-This repository is based on implementation of [You Only Need Adversarial Supervision for Semantic Image Synthesis](https://github.com/boschresearch/OASIS) with updated libraries and additional components pertaining our work.
+Parts of this repository are based on implementation of [You Only Need Adversarial Supervision for Semantic Image Synthesis](https://github.com/boschresearch/OASIS).
