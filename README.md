@@ -2,7 +2,7 @@
 
 # C-VTON: Context-Driven Image-Based Virtual Try-On Network
 
-[[paper pdf]](https://lmi.fe.uni-lj.si/wp-content/uploads/2021/10/WACV2022_Benjamin-5_compressed.pdf)
+[[paper pdf]](https://openaccess.thecvf.com/content/WACV2022/papers/Fele_C-VTON_Context-Driven_Image-Based_Virtual_Try-On_Network_WACV_2022_paper.pdf)
 
 ### Abstract
 
