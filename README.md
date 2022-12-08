@@ -70,3 +70,9 @@ If you use code or results from this repository, please cite the following publi
 ```
 
 Parts of this repository are based on implementation of [You Only Need Adversarial Supervision for Semantic Image Synthesis](https://github.com/boschresearch/OASIS).
+
+## Acknowledgements
+
+Supported in parts by the Slovenian Research Agency ARRS through the Research Programmes P2-0250(B) "Metrology and Biometric System" and P2--0214 (A) “Computer Vision”, the ARRS Project J2-2501(A) "DeepBeauty" and the ARRS junior researcher program.
+
+![ARRS Logo](arrs_logo.jpg "ARRS Logo")
